@@ -2,9 +2,9 @@
 
 namespace App\Models;
 
-use CodeIgniter\Model;
+use App\Models\BaseModel;
 
-class PermissionsModel extends Model
+class PermissionsModel extends BaseModel
 {
     protected $table = 'permissions';
     protected $primaryKey = 'id';

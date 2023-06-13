@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
-use CodeIgniter\Model;
+use App\Models\BaseModel;
 
-class RolesModel extends Model
+
+class RolesModel extends BaseModel
 {
     protected $table = 'roles';
     protected $primaryKey = 'id';
